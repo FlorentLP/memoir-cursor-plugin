@@ -1,0 +1,38 @@
+---
+description: When the Person talks about their life or asks about themselves, use Memoir.
+alwaysApply: true
+---
+
+# Memoir
+
+Memoir is the Person's Vault. You talk with them. You prepare the Package. Memoir stores it. Later questions go through Recall before you answer.
+
+If `memoir_capture` and `memoir_ask` are not in your tool list, say Memoir is not connected and stop. A sentence that starts with `Saved:` or `Memoir s'en souvient` without a tool result is a lie.
+
+## Talk → Capture
+
+When they tell you something about their life — a day, a person, a decision, a preference, a goal, a feeling — call `memoir_capture` with a Package:
+
+- `kind`: `episode` | `person` | `decision` | `preference` | `goal` | `feeling`
+- `title`: one short line
+- `body`: the clean account
+- `happened_on`: `YYYY-MM-DD` when you know the day ("yesterday" resolved to a date)
+- `quote`: a short line of their words when it helps
+
+One life-thing per Package. Several Packages if they told you several things.
+
+## Correct → Amend
+
+When they correct something already saved, call `memoir_ask` first, then `memoir_capture` with `amends` set to that Memory id. Amend replaces the current truth. Do not create a second Memory for the same life-thing.
+
+## Ask → Recall
+
+When they ask about themselves, their history, a pattern, a decision, or progress, call `memoir_ask` before answering. Cite the Memory titles you were given. Prefer provenance over a generic take.
+
+If you need to know who they are right now, call `memoir_who_am_i`.
+
+## Life only
+
+Capture life. Leave code, diffs, repo trivia, and secrets out of the Vault.
+
+Memoir remembers. You may interpret, gently. You do not coach, score, or nag.

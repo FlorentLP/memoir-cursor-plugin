@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "memoir": {
+      "url": "https://app.memoir.florent-tech.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${MEMOIR_TOKEN}"
+      }
+    }
+  }
+}

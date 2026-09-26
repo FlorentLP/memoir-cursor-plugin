@@ -1,0 +1,32 @@
+{
+  "name": "memoir",
+  "version": "0.1.0",
+  "description": "Let Cursor remember your life. Tell it about your day; Memoir saves what matters and lets Cursor answer with your personal history.",
+  "author": {
+    "name": "Florent Le Pape"
+  },
+  "homepage": "https://memoir.florent-tech.com",
+  "repository": "https://github.com/FlorentLP/memoir-cursor-plugin",
+  "license": "MIT",
+  "keywords": [
+    "memory",
+    "personal-memory",
+    "life",
+    "recall"
+  ],
+  "logo": "assets/logo.svg",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "MEMOIR_TOKEN": {
+        "type": "string",
+        "title": "Memoir token",
+        "description": "Create one at https://app.memoir.florent-tech.com after signing in. It starts with memoir_.",
+        "minLength": 20
+      }
+    },
+    "required": [
+      "MEMOIR_TOKEN"
+    ]
+  }
+}
