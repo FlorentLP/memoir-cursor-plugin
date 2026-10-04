@@ -11,19 +11,18 @@ Let Cursor remember your life. Share your daily thoughts, experiences and update
 
 ## Set up
 
-1. Open [app.memoir.florent-tech.com](https://app.memoir.florent-tech.com) and sign in with your email.
-2. Click **Create a token** and copy it. It starts with `memoir_` and is shown once.
-3. Install the Memoir plugin in Cursor and paste the token into **Memoir token** (`MEMOIR_TOKEN`).
-4. Reload MCP. Tell Cursor about your day. In a new chat, ask what happened yesterday.
+1. Install the Memoir plugin in Cursor.
+2. Cursor shows Memoir as needing a login. Click **Connect**. Your browser opens Memoir.
+3. Sign in with your email, then press **Allow**.
+4. Tell Cursor about your day. In a new chat, ask what happened yesterday.
 
-No plugin? Add this to `~/.cursor/mcp.json` instead:
+No plugin? Add this to `~/.cursor/mcp.json` instead and connect the same way:
 
 ```json
 {
   "mcpServers": {
     "memoir": {
-      "url": "https://app.memoir.florent-tech.com/mcp",
-      "headers": { "Authorization": "Bearer memoir_…" }
+      "url": "https://app.memoir.florent-tech.com/mcp"
     }
   }
 }
@@ -42,6 +41,6 @@ No plugin? Add this to `~/.cursor/mcp.json` instead:
 - Stored in the EU. We don't train on it. We don't sell it. No ads.
 - Forget any Memory from Cursor or from the album.
 - Take your Vault with you: the album exports it as markdown.
-- Revoke a token from the album at any time.
+- Disconnect Cursor from the album at any time.
 
 Privacy: [app.memoir.florent-tech.com/privacy](https://app.memoir.florent-tech.com/privacy)
