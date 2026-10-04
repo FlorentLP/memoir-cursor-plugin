@@ -1,0 +1,17 @@
+{
+  "name": "memoir",
+  "owner": {
+    "name": "Florent Le Pape",
+    "email": "contact@florent-tech.com"
+  },
+  "metadata": {
+    "description": "Memoir: personal memory for Cursor."
+  },
+  "plugins": [
+    {
+      "name": "memoir",
+      "source": ".",
+      "description": "Let Cursor remember your life. Sign in once; Memoir saves what matters and recalls it when you ask."
+    }
+  ]
+}
