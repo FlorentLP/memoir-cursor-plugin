@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "memoir": {
+      "type": "http",
+      "url": "https://app.memoir.florent-tech.com/mcp"
+    }
+  }
+}

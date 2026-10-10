@@ -1,9 +1,10 @@
 {
   "name": "memoir",
   "version": "0.3.0",
-  "description": "Let Cursor remember your life. Tell it about your day; Memoir saves what matters and lets Cursor answer with your personal history.",
+  "description": "Save what you ask Memoir to remember, recall your history, amend a Memory, or forget one.",
   "author": {
-    "name": "Florent Le Pape"
+    "name": "Florent Le Pape",
+    "email": "contact@florent-tech.com"
   },
   "homepage": "https://memoir.florent-tech.com",
   "repository": "https://github.com/FlorentLP/memoir-cursor-plugin",
@@ -11,8 +12,7 @@
   "keywords": [
     "memory",
     "personal-memory",
-    "life",
-    "recall"
+    "mcp"
   ],
-  "logo": "assets/logo.svg"
+  "mcpServers": "./.mcp.json"
 }

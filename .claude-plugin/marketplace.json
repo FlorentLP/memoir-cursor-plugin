@@ -1,0 +1,5 @@
+{
+  "name": "memoir",
+  "owner": { "name": "Florent Le Pape", "email": "contact@florent-tech.com" },
+  "plugins": [{ "name": "memoir", "source": "./" }]
+}

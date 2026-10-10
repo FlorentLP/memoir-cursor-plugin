@@ -5,8 +5,8 @@ description: Evening capture. Use when the Person wants to tell Memoir about tod
 
 # Evening capture
 
-Ask for one true sentence about today. Listen. Prepare Packages. Call `memoir_capture` for each life-thing they named.
+The Person starts this capture session explicitly. Ask for one true sentence about today. Listen. Prepare Packages. Call `memoir_capture` for each life-thing they named.
 
 If they correct an earlier Memory, `memoir_ask` first, then Amend.
 
-Confirm with the one-line save Memoir returns. Stop there.
+Save ordinary life details only; leave authentication secrets, payment details, government identifiers and sensitive medical records out. Confirm a save only after the tool succeeds, using the one-line message Memoir returns. Stop there.
